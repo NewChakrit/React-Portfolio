@@ -28,14 +28,17 @@
   justify-content: center;
 }
 
-.home__social-link {
-  color: var(--title-color);
-  font-size: 1.3rem;
-  transition: 0.3s;
+.fa-facebook:hover {
+  color: #1778f2;
 }
-
-.home__social-link:hover {
-  color: hsl(43, 100%, 68%);
+.fa-instagram:hover {
+  color: #d62976;
+}
+.fa-linkedin:hover {
+  color: #0072b1;
+}
+.fa-github:hover {
+  color: #171515;
 }
 
 .scroll__down {
@@ -93,6 +96,7 @@
   top: 0;
   height: 100%;
   width: 100%;
+  z-index: -2;
 }
 
 .shape {
