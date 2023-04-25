@@ -20,7 +20,7 @@ const Blog = () => {
             </a>
             <div className="blog__details">
               <h3 className="blog__title">
-                5 Best App Development Tool for Your Projects
+                5 Best App Development Tools for Your Projects
               </h3>
               <div className="blog__meta">
                 <span>09 February, 2022</span>
