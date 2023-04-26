@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   z-index: 10;
+  transition: 0.3s;
 }
 
 .nav {
@@ -47,4 +48,39 @@
   font-size: var(--small-font-size);
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
+}
+
+.nav__toggle {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.875rem;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  background-color: var(--body-color);
+  border: 1px solid #e8dfec;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 20%;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .aside {
+    left: -110px;
+  }
+
+  .nav__toggle {
+    display: flex;
+  }
+
+  .nav__toggle-open {
+    left: 140px;
+  }
+
+  .show-menu {
+    left: 0;
+  }
 }

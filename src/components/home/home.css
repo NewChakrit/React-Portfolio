@@ -29,6 +29,12 @@
   justify-content: center;
 }
 
+.home__social-link {
+  color: var(--title-color);
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
 .fa-facebook:hover {
   color: #1778f2;
 }
@@ -156,4 +162,20 @@
 .s11 {
   right: 2%;
   bottom: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+  .home__social-link {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (max-height: 576px) {
+  .scroll__down {
+    bottom: -4rem;
+  }
+
+  .intro {
+    margin-top: 4rem;
+  }
 }

@@ -20,14 +20,14 @@ const Contact = () => {
               <input
                 type="text"
                 className="contact__form-input"
-                placeholder="Insert youe name"
+                placeholder="Insert your name"
               />
             </div>
             <div className="contact__form-div">
               <input
                 type="email"
                 className="contact__form-input"
-                placeholder="Insert youe email"
+                placeholder="Insert your email"
               />
             </div>
           </div>
@@ -36,7 +36,7 @@ const Contact = () => {
             <input
               type="text"
               className="contact__form-input"
-              placeholder="Insert youe subject"
+              placeholder="Insert your subject"
             />
           </div>
 
