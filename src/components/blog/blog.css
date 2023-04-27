@@ -1,22 +1,29 @@
 .blog__container {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 1.875rem;
 }
 
 .blog__card {
-  box-shadow: var(--shadow);
-  border-radius: var(--border-radius);
-  overflow: hidden;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blog__thumb {
   position: relative;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 180px;
 }
 
 .blog__img {
   transform: scale(1);
   transition: 0.3s;
+  width: 150px;
+  height: 150px;
 }
 
 .blog__thumb:hover .blog__img {
