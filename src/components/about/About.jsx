@@ -14,11 +14,13 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I am a skilled full stack developer. I am a quick learner and a
-              team worker that gets the job done. I can easily capitalize on low
-              hanging fruits and quickly maximize timely deliverables for
+              As a skilled full-stack developer and system analyst. I have
+              experience working as part of a quick learner , a team worker and
+              individually that gets the job done. I can easily capitalize on
+              low hanging fruits and quickly maximize timely deliverables for
               real-time schemas.
             </p>
+
             <a href="" className="btn">
               Download CV
             </a>
