@@ -13,7 +13,7 @@ const Data = [
     icon: "icon-graduation",
     year: "2016 - 2019",
     title: "Bachelor's Degree",
-    desc: "Silpakorn university faculty of music major performance.",
+    desc: "Silpakorn University faculty of music major of performance.",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const Data = [
     icon: "icon-graduation",
     year: "2013 - 2015",
     title: "High School",
-    desc: "Triam Udom Suksa major math and science.",
+    desc: "Triam Udom Suksa School major of math and science.",
   },
   {
     id: 4,
