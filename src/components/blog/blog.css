@@ -26,7 +26,18 @@
   height: 150px;
 }
 
+.blog__img2 {
+  transform: scale(1);
+  transition: 0.3s;
+  width: 120px;
+  height: 150px;
+}
+
 .blog__thumb:hover .blog__img {
+  transform: scale(1.1);
+}
+
+.blog__thumb:hover .blog__img2 {
   transform: scale(1.1);
 }
 

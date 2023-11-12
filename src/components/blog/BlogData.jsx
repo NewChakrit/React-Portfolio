@@ -84,11 +84,11 @@ const BlogData = [
     category: "Express",
     icon: "https://res.cloudinary.com/do58tgs2e/image/upload/v1682588830/Logo/pngwing.com_2_olv4t4.png",
   },
-  {
-    id: 18,
-    category: "Passport",
-    icon: "https://res.cloudinary.com/do58tgs2e/image/upload/v1646851026/Logo/0d184ee3-fd8d-4b94-acf4-b4e686e57375_w18gei.png",
-  },
+  // {
+  //   id: 18,
+  //   category: "Passport",
+  //   icon: "https://res.cloudinary.com/do58tgs2e/image/upload/v1646851026/Logo/0d184ee3-fd8d-4b94-acf4-b4e686e57375_w18gei.png",
+  // },
   {
     id: 19,
     category: "Axios",
@@ -131,8 +131,8 @@ const BlogData = [
   },
   {
     id: 27,
-    category: "Jenkins",
-    icon: "https://res.cloudinary.com/do58tgs2e/image/upload/v1673156118/Logo/jenkins_bix8sl.png",
+    category: "Confluent",
+    icon: "https://res.cloudinary.com/do58tgs2e/image/upload/v1687267931/Logo/confluence-logo-D9B07137C2-seeklogo.com_pssurh.png",
   },
   {
     id: 28,

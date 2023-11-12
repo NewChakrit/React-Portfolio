@@ -9,7 +9,6 @@ const Blog = () => {
   return (
     <section className="blog container section" id="blog">
       <h2 className="section__title">Technical Skills</h2>
-
       <div className="blog__container grid">
         {BlogData.map((data, id) => {
           return (
@@ -22,6 +21,17 @@ const Blog = () => {
             </div>
           );
         })}
+        <div className="blog__card">
+          <div className="blog__thumb">
+            <a href="#">
+              <img
+                src="https://res.cloudinary.com/do58tgs2e/image/upload/v1673156118/Logo/jenkins_bix8sl.png"
+                alt=""
+                className="blog__img2"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

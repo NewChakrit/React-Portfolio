@@ -4,7 +4,7 @@ const Data = [
     category: "education",
     icon: "icon-graduation",
     year: "2022",
-    title: "Full stack developer course",
+    title: "CodeCamp Fullstack Developer by Software Park Codecamp",
     desc: "Learn programming languages as html, css, javascript, react, node and sql at Software Park Thailand Code Camp.",
   },
   {
